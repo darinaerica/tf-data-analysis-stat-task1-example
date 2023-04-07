@@ -14,7 +14,6 @@ def solution(x: np.array) -> float:
     sigma = np.exp(1) 
     error = np.random.normal(mu, sigma, n) # ошибки
     a = error/t 
-    print(a)
     # x - скорость
     
     return a.mean() # Ваш ответ  
